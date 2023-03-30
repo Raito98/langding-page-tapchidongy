@@ -1,0 +1,142 @@
+.nam-khoa-link{
+    hr{
+        border: none;
+        border-bottom-style: dashed;
+        border-bottom-color: #afafaf;
+        border-bottom-width: 1px;
+    }
+  
+    a{
+        font-size: 13px;
+        font-weight: 400;
+        color: #b85147;
+        &:hover{
+            color: $a_hover_menu;
+        }
+    }
+    span{
+        font-size: 13px;
+    }
+    margin-bottom: 20px;
+}
+.nam-khoa-title{
+    h1{
+        font-size: 26px;
+        color: $green;
+    }
+    hr{
+        border: 1px solid $green;
+    }
+}
+
+.nam-khoa-new-title{
+    display: flex;
+    border-bottom-style: dashed;
+    border-bottom-color: #afafaf;
+    border-bottom-width: 1px;
+    margin: 15px 0;
+    .title{
+        width: 87%;
+        margin: 0;
+        a{
+            text-transform: uppercase;
+            font-size: 18px;
+            color: $a_hover_menu;
+            &:hover{
+                color: #d9ae39;
+            }
+        }
+    }
+    ul{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0;
+        li{
+            padding-left: 9px;
+            a{
+                color: $green;
+                font-weight: 400;
+                &:hover{
+                    color: #d9ae39;
+                }
+            }
+        }
+        .list-item-bottom{
+            position: relative;
+           
+            a{
+                color: $black; 
+                font-weight: 700;
+            }
+            i{
+                border: 1px solid #ccc;
+                padding: 0 5px;
+                color: $green;
+            }
+        }
+    }
+}
+.nam-khoa-row{
+    margin-bottom: 50px;
+    .item-title{
+        font-size: 18px;
+    }
+    .item-description{
+        color: #ccc;
+    }
+}
+ .nam-khoa-row-right{
+    hr{ 
+        border: none;
+        border-bottom-style: dashed;
+        border-bottom-color: #afafaf;
+        border-bottom-width: 1px;
+    }
+    .item-title{
+        font-size: 16px;
+    }
+    ul{
+        list-style: square;
+        padding-left: 15px;
+    }
+    li{
+        border-bottom-style: dashed;
+        border-bottom-color: #afafaf;
+        border-bottom-width: 1px;
+        padding:  5px 0 10px 0;
+        a{
+            font-size: 14px;
+            font-weight: 400;
+        }
+        &::marker{
+            font-size: 15px;
+            color: #9a191c;
+        }
+    }
+    li + li {
+        padding: 15px 0;
+    }
+    .item-list-bottom{
+        border-bottom-style: none;
+    }
+}
+
+.nam-khoa-item{
+    margin-bottom: 15px;
+    .item-title{
+        font-size: 15px;
+    }
+    .item-img{
+        padding: 0 5px;
+    }
+    .item-title{
+        padding: 0;
+    }
+}
+.nam-khoa-row-second{
+    li{
+        &::marker{
+            color: $black;
+        }
+    }
+}

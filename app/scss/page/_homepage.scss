@@ -136,6 +136,8 @@
 .product-item-left{
     img{
         padding-bottom: 10px;
+        aspect-ratio: 16/11.5;
+        object-fit: cover;
     }
     a{
         font-size: 16px;
